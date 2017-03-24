@@ -10,6 +10,8 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
-  "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
+  "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
+  "org.reactivemongo" %% "play2-reactivemongo" % "0.12.1"
 )
 
+//resolvers += "Sonatype Snapshots" at "http://oss.sonatype.org/content/repositories/snapsh
