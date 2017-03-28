@@ -16,3 +16,4 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 #just for testing (GET to create user, kill me instead)
 GET     /user                    controllers.UserController.create
 POST    /user                    controllers.UserController.createFromJson
+GET     /users                   controllers.UserController.findByName(lastName: String)
